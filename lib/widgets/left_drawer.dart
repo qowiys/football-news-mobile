@@ -13,7 +13,7 @@ class LeftDrawer extends StatelessWidget {
         children: [
           const DrawerHeader(
               decoration: BoxDecoration(
-              color: Colors.blue,
+              color: Colors.red,
             ),
             child: Column(
               children: [
@@ -69,7 +69,7 @@ class LeftDrawer extends StatelessWidget {
           ),
           // TODO: Buat ListTile baru untuk ke halaman melihat news
           ListTile(
-              leading: const Icon(Icons.add_reaction_rounded),
+              leading: const Icon(Icons.newspaper),
               title: const Text('News List'),
               onTap: () {
                   // Route to news list page
